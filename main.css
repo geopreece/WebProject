@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Montserrat:ital,wght@0,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat:wght@650&family=Roboto:wght@500&display=swap');
+
+
+/* Page colour, text colour, text font. */
+* { 
+    background-color: #FDD935;
+    font-family: 'Roboto', sans-serif;
+    color: #000000
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* This creates the big text for the page title. */
+h1 {
+    display: flex;    
+    font-family: 'Bungee Shade', cursive;
+    font-size: 36px;
+}
+
+.header {
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+
+
+/* This creates a rown to put content in. */
+.row {
+    display: flex;
+    /* min-height: 100vh; */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.columntop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 40px; */
+    /* width: 500px; */
+   
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* padding: 40px; */
+    /* width: 500px; */
+   
+}
+/* 
+.columnpic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    object-fit: cover;
+} */
+
+
+.box {
+    display:flex;
+    text-align: left;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border: 3px solid black; */
+
+}
+
+
+/* Makes images fit on the screen */
+img.size {
+    height: 300px;  
+    /* object-fit: cover; */
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.columnright {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+
+.halfbox {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding-top: 0px;
+    padding-right: 5px;
+}
+
