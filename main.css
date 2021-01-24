@@ -42,7 +42,7 @@ h1 {
 .columntop {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: start;
     /* padding: 40px; */
     /* width: 500px; */
    
@@ -84,6 +84,21 @@ img.size {
     /* object-fit: cover; */
 }
 
+/* 
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+} */
+
+/* 
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+} */
 
 .fa {
     padding: 20px;
@@ -92,13 +107,13 @@ img.size {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-}
-
-
+  }
+  
 .fa-linkedin {
     background: #007bb5;
     color: white;
 }
+
 
 
 .columnright {
@@ -117,3 +132,35 @@ img.size {
     padding-right: 5px;
 }
 
+.socialsrow {
+    display: flex;
+    /* min-height: 100vh; */
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headrow {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+    margin: 5px;
+    
+}
+
+
+
+.dualimgbox {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border: 3px solid black; */
+
+}
